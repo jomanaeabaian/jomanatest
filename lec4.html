@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lec4</title>
+</head>
+
+<body>
+    <header>
+        <h2 style="text-align: center;">lec4</h2>
+    </header>
+
+    <main>
+        <table border="1" style="margin: auto;">
+            <caption>Form inside table</caption>
+            <form action="index.html" method="post" enctype="multipart/form-data">
+                <tr>
+                    <th><label for="name">Name:</label> </th>
+                    <th><input type="text" id="name" placeholder="Enter Your Name:"></th>
+                </tr>
+                <tr>
+                    <th><label for="email">Email:</label></th>
+                    <th><input type="email" id="email" placeholder="Enter Your Email:"></th>
+                </tr>
+                <tr>
+                    <th><label for="number">Phone Number:</label></th>
+                    <th><input type="text" placeholder="Enter Your Number:"></th>
+                </tr>
+                <tr>
+                    <th><label for="date">Date Of Birth:</label></th>
+                    <th><input type="date" id="date"></th>
+                </tr>
+                <tr>
+                    <th><label for="edu">Education:</label>
+                    <th><select name="education" id="edu">
+                            <option value="noselect">No select </option>
+                            <option value="الأزهر">جامعة الأزهر</option>
+                            <option value="الإسلامية">الجامعة الإسلامية</option>
+                            <option value="الكلية الجامعية">الكلية الجامعية للعلوم التطبيقية </option>
+                            <option value="الأقصى">جامعة الأقصى</option>
+                            <option value="فلسطين">جامعة فلسطين</option>
+                            <option value="أخرى">أخرى </option>
+
+                        </select></th>
+                </tr>
+                <tr>
+                    <th><label for="bio">Bio:</label></th>
+                    <th><textarea name="Bio" id="bio"></textarea></th>
+                </tr>
+                <tr>
+                    <th><label for="image">Your image:</label></th>
+                    <th><input type="file" name="image" id="image"></th>
+                </tr>
+
+                <tr>
+                    <th><label for="gender">Gender:</label></th>
+                    <th>
+                        <label><input type="radio" name="gender" id="male">Male</label><br>
+                        <label><input type="radio" name="gender" id="femail">Femail</label><br>
+                    </th>
+                </tr>
+                <tr>
+                    <th><label for="hoppies">Your Hoppies:</label></th>
+                    <th><select name="Hoppy" id="hoppies" multiple>
+                            <option value="noselect">No select</option>
+                            <option value="drawing">Drawing</option>
+                            <option value="crocheting">Crocheting</option>
+                            <option value="swimming">Swimming</option>
+                            <option value="reading">Reading</option>
+                            <option value="football">Football</option>
+                            <option value="other">Other</option>
+                        </select>
+
+                    </th>
+                </tr>
+            </form>
+        </table>
+    </main>
+    <footer>
+        <h5 style="text-align: center;">Made by Jomana</h5>
+    </footer>
+</body>
+
+</html>
