@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #2f3340;
+    color: white;
+    padding: 15px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+nav ul a {
+    color: white;
+    text-decoration: none;
+}
+
+nav h2 {
+    font-style: italic;
+}
+
+.hero {
+    height: 60vh;
+    background: url(/lec9/images/background.jpg);
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero h1 {
+    font-size: 80px;
+    color: #363620;
+}
+
+.hero p {
+    color: #363620;
+}
+
+.about {
+    padding: 100px;
+    background: #d6b781;
+    text-align: center;
+}
+
+.about h2 {
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.about p {
+    margin-bottom: 50px;
+    line-height: 40px;
+}
+
+.about-images {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.about-images img {
+    width: 200px;
+}
+
+.menu {
+    background: #2f3340;
+    color: white;
+    padding: 100px;
+    text-align: center;
+
+}
+
+.menu img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.menu h2 {
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.menu p {
+    line-height: 40px;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.card {
+    background-color: #2f3340;
+    color: white;
+    padding: 20px;
+    width: 400px;
+}
+
+.card h3 {
+    margin-bottom: 20px;
+}
+
+
+.location {
+    padding: 100px;
+    background: #d6b781;
+}
+
+.location-container {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.location-container img {
+    width: 500px;
+}
+
+.location-container>div h3 {
+    margin-bottom: 150px;
+}
+
+footer {
+    background: #d6b781;
+}
+
+img {
+    max-width: 100%;
+}
